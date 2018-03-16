@@ -1,10 +1,17 @@
 $(document).ready(function () {
     $("#contact").click(function () {
-        $(".social-media-links").css("border", "3px solid #fff");
+        $(".icon-big").css("font-size", "150%");
+        $(".ion-social-linkedin").css("color", "#007bb6");
+        $(".ion-social-github").css("color", "#6cc644");
+        $(".ion-android-mail").css("color", "#0266C8");
+        
         setTimeout(ChangeBorder, 3000);
         function ChangeBorder() {
-            $(".social-media-links").css("border", "0");
-            $(".social-media-links").css("padding-top", "3px");
+            $(".icon-big").css("font-size", "125%");
+            $(".ion-social-linkedin").css("color", "#fff");
+            $(".ion-social-github").css("color", "#fff"); 
+            $(".ion-android-mail").css("color", "#fff");
+            
         };
         
         
